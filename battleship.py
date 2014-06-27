@@ -32,8 +32,6 @@ for turn in range(4):
     if turn == 3:
         print "Game Over"
         print "You have no more turns"
-        print "Chantal smells"
-        print "kissy"
         break
     elif guess_row == ship_row and guess_col == ship_col:
         print "Congratulations! You sunk my battleship!"
